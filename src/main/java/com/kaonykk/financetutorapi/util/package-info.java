@@ -1,5 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/package-info.java to edit this template
+ * This package contains helper classes shared by several layers, such as the
+ * database connection setup and the JSON conversion.
+ * It contains no business logic.
  */
+
 package com.kaonykk.financetutorapi.util;
