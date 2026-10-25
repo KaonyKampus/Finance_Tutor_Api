@@ -1,5 +1,9 @@
 /*
-The controller logic:
-The controller receives the JSON from the app (front end), converts it into a DTO and sends it to the service, which validates it according to the business rules. If something does not meet the rules, the service throws an exception, which the controller converts into an error response. If everything is correct, the service converts the DTO into an entity and asks the DAO to retrieve or save information in the database. The response travels back through the same layers and is returned to the app as JSON.
+/*
+ * This package contains the servlets that receive HTTP requests from the app.
+ * They convert the incoming JSON into DTOs, call the service layer, and return
+ * the result as JSON with the proper HTTP status code. When the service throws
+ * an exception, the controller catches it and converts it into an error response.
+ * It does not apply business rules or access the database.
  */
 package com.kaonykk.financetutorapi.controller;
