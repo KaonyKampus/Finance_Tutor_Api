@@ -14,6 +14,7 @@ public class HealthServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("application/json"); 
 		resp.setCharacterEncoding("UTF-8");
+	//json structure
 	
 		String json ="{\"status\": \"UP\",\"service\":\"FinanceTutorApi\"}";
 	
